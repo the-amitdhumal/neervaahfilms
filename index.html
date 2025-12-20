@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neervaah Films - Wedding photography and cinematography in Mumbai, Pune and destinations across India. Professional pre-wedding shoots, maternity photography, baby shower photography, and commercial videography services. Capture your special moments with India's leading photography studio.">
+    <meta name="keywords" content="wedding photography Mumbai Pune, pre wedding shoot Mumbai Pune, maternity photography Mumbai Pune, baby shower photography Mumbai Pune, cinematography services Mumbai Pune, professional photographer Mumbai Pune, Indian wedding photography, event photography Mumbai Pune, album design, Neervaah Films">
+    <meta name="author" content="Neervaah Films">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Neervaah Films | Professional Wedding Photography & Cinematography in Mumbai, Pune and destinations across India">
+    <meta property="og:description" content="Expert wedding photography, pre-wedding shoots, maternity and baby photography services. Creating timeless memories with artistic excellence.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.neervaahfilms.in">
+    <meta property="og:image" content="https://i.postimg.cc/vHk6wFqs/favicon.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Neervaah Films | Professional Wedding Photography & Cinematography">
+    <meta name="twitter:description" content="Wedding photography and cinematography services in Mumbai, Pune and destinations across India. Book your special day with India's premier photography studio.">
+    <meta name="twitter:image" content="https://i.postimg.cc/vHk6wFqs/favicon.png">
+    <link rel="canonical" href="https://www.neervaahfilms.in">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/vHk6wFqs/favicon.png">
+    <title>Neervaah Films | Professional Wedding Photography & Cinematography in Mumbai | Pre-Wedding Shoots</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy-blue: #001f3f;
+            --silver: #dddddd;
+            --off-white: #f2f2f2;
+            --accent-gold: #c9a961;
+            --dark-gray: #2c3e50;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--silver);
+            background-color: var(--navy-blue);
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 31, 63, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--silver);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: var(--silver);
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+
+        #home {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(0, 31, 63, 0.7), rgba(0, 31, 63, 0.7)), 
+                        url('https://i.postimg.cc/0y74sZy6/Gemini-Generated-Image-j20j8ij20j8ij20j.png?w=1920') center/cover no-repeat;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 950px;
+            padding: 2rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            color: var(--off-white);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-content p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            color: var(--silver);
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--accent-gold);
+            color: var(--navy-blue);
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(201, 169, 97, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(201, 169, 97, 0.5);
+        }
+
+        section {
+            padding: 5rem 4rem;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--off-white);
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: var(--accent-gold);
+            margin: 1rem auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(221, 221, 221, 0.1);
+            overflow: hidden;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(201, 169, 97, 0.2);
+        }
+
+        .service-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .service-content {
+            padding: 2rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+
+        .service-card p {
+            color: var(--silver);
+        }
+
+        #gallery {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            height: 250px;
+            cursor: pointer;
+        }
+
+        .gallery-item img,
+        .gallery-item video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover img,
+        .gallery-item:hover video {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 31, 63, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-overlay span {
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .about-tagline {
+            font-style: italic;
+            color: var(--accent-gold);
+            margin-top: 2rem;
+            font-size: 1.3rem;
+        }
+
+        #contact {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 3rem 2rem 1rem;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .social-links a {
+            color: var(--silver);
+            font-size: 1.8rem;
+            transition: color 0.3s ease, transform 0.3s ease;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: var(--accent-gold);
+            transform: translateY(-3px);
+        }
+
+        .social-links .fa-instagram:hover {
+            color: #E4405F;
+        }
+
+        .social-links .fa-facebook:hover {
+            color: #1877F2;
+        }
+
+        .social-links .fa-youtube:hover {
+            color: #FF0000;
+        }
+
+        .social-links .fa-whatsapp:hover {
+            color: #25D366;
+        }
+
+        .footer-text {
+            color: var(--silver);
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 999;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+        }
+
+        .video-item {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-item iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .gallery-section-title {
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(0, 31, 63, 0.98);
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem 0;
+                gap: 1rem;
+                transform: translateY(-100%);
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.3s ease;
+            }
+
+            .nav-links.active {
+                transform: translateY(0);
+                opacity: 1;
+                pointer-events: all;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-content p {
+                font-size: 1.1rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://i.postimg.cc/sxC0N0k2/Artboard-1-copy-5-crop-1.png" alt="Neervaah Films Logo">
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero-content">
+                <h1>Professional Wedding Photography & Cinematography</h1>
+                <p>Creating timeless memories through weddings, pre-wedding shoots, maternity photography, and cinematic films that tell your unique story</p>
+                <a href="#contact" class="cta-button">Book Your Photography Session</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Photography & Cinematography Services</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Indian Wedding Photography Services in Mumbai" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Wedding Photography</h3>
+                        <p>Elegant and timeless Indian wedding photography that captures every precious moment of your special day with artistry and emotion. Professional coverage of ceremonies, rituals, and celebrations.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.pexels.com/photos/1024984/pexels-photo-1024984.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pre Wedding and Post Wedding Photoshoot" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Pre & Post Wedding Shoots</h3>
+                        <p>Creative pre-wedding and post-wedding photography sessions that capture your love story in stunning outdoor and indoor locations with unique concepts and themes.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Corporate Event Photography and Coverage" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Event Photography & Coverage</h3>
+                        <p>Professional documentation of corporate events, birthday celebrations, engagement parties, and special occasions with stunning visual storytelling and high-quality images.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://i.postimg.cc/JhBQbz9M/Gemini-Generated-Image-fpntogfpntogfpnt.png?auto=compress&cs=tinysrgb&w=600" alt="Indian Baby Shower Dohale Photography" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Baby Shower Photography</h3>
+                        <p>Capture the joy and excitement of your Indian baby shower (Dohale/Godh Bharai) celebration with beautiful, heartwarming photography that preserves precious memories.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://i.postimg.cc/25Bx4SPb/Gemini-Generated-Image-hriaojhriaojhria.png?auto=compress&cs=tinysrgb&w=600" alt="Maternity Photoshoot for Pregnant Women" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Maternity Photography</h3>
+                        <p>Celebrate the beauty of pregnancy with elegant maternity photography sessions that honor this special journey. Indoor and outdoor shoots with traditional and modern themes.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.pexels.com/photos/1648377/pexels-photo-1648377.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Newborn Baby Photography Services" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Newborn & Baby Photography</h3>
+                        <p>Adorable newborn and baby photography sessions capturing precious early moments with tenderness, creativity, and attention to safety and comfort.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Commercial Photography and Videography" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Commercial Projects</h3>
+                        <p>High-quality commercial photography and videography for brands, products, real estate, and promotional campaigns. Professional content for marketing and advertising.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cinematic Wedding Videography" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Cinematography & Films</h3>
+                        <p>Cinematic video production with professional editing, color grading, and post-production excellence. Creating emotional films that tell your story beautifully.</p>
+                    </div>
+                </article>
+                <article class="service-card">
+                    <img src="https://i.postimg.cc/qgVrvqVR/Gemini-Generated-Image-ow8ydmow8ydmow8y.png?auto=compress&cs=tinysrgb&w=600" alt="Custom Wedding Album Design" class="service-image" loading="lazy">
+                    <div class="service-content">
+                        <h3>Album Design & Printing</h3>
+                        <p>Custom-designed premium photo albums that beautifully preserve your memories in stunning layouts. High-quality printing and binding with elegant presentation.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Our Photography Gallery & Portfolio</h2>
+            
+            <h3 class="gallery-section-title">Wedding & Event Photography</h3>
+            <p style="text-align: center; color: var(--silver); margin-bottom: 2rem;">
+                Follow us on Instagram for daily updates and stunning photography: 
+                <a href="https://www.instagram.com/neervaah_films/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); text-decoration: none;">@neervaah_films</a>
+            </p>
+            
+            <div style="max-width: 1400px; margin: 0 auto 3rem;">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/1024984/pexels-photo-1024984.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Indian Wedding Ceremony Photography" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Wedding</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Bride Portrait Photography" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Portrait</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cinematic Event Photography" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Event</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/1659437/pexels-photo-1659437.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Couple Pre-Wedding Photography" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Couple Shoot</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Commercial Product Photography" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Commercial</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Outdoor Destination Wedding Photography" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Destination</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="gallery-section-title" style="margin-top: 4rem;">Cinematic Wedding Films & Videos</h3>
+            <div class="gallery-grid">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=Neervaah_Films&index=0" title="Latest Cinematic Wedding Film" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=Neervaah_Films&index=1" title="Recent Indian Wedding Film" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=Neervaah_Films&index=2" title="Pre-Wedding Cinematic Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=Neervaah_Films&index=3" title="Event Highlights Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=Neervaah_Films&index=4" title="Maternity Photoshoot Film" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=Neervaah_Films&index=5" title="Baby Photography Film" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Neervaah Films</h2>
+            <div class="about-content">
+                <p>At Neervaah Films, we believe that every moment deserves to be captured with passion, precision, and artistry. Our team of dedicated professional photographers and cinematographers brings years of experience in wedding photography, event coverage, and commercial videography to create visual narratives that resonate deeply with our clients.</p>
+                <p>We specialize in transforming fleeting moments into timeless treasures, combining technical excellence with creative vision to deliver stunning results that exceed expectations. From traditional Indian weddings to modern pre-wedding shoots, from intimate baby showers to grand celebrations, we document every emotion with authenticity and artistic flair.</p>
+                <p>Based in Mumbai, we serve clients across India and internationally, offering destination wedding photography services. Our commitment to quality, creativity, and customer satisfaction has made us one of the most trusted names in professional photography and cinematography.</p>
+                <p class="about-tagline">"Where every frame whispers emotions, and every story finds its eternal voice."</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Neervaah Films - Book Your Photography Session</h2>
+            <div class="contact-container">
+                <p style="text-align: center; font-size: 1.2rem; color: var(--silver); margin-bottom: 2rem;">
+                    Ready to capture your special moments? Contact us today to discuss your wedding photography, pre-wedding shoot, maternity photography, or event coverage needs. Our professional team is here to bring your vision to life.
+                </p>
+                <div style="text-align: center; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="mailto:neervaahfilms@gmail.com" class="cta-button" style="font-size: 1.1rem;" aria-label="Email Neervaah Films">📧 Book via Email</a>
+                    <a href="tel:+919112162535" class="cta-button" style="font-size: 1.1rem;" aria-label="Call Neervaah Films">📞 Call Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/neervaah_films/" target="_blank" rel="noopener noreferrer" aria-label="Follow Neervaah Films on Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/neervaahfilms" target="_blank" rel="noopener noreferrer" aria-label="Like Neervaah Films on Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://youtube.com/@Neervaah_Films" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to Neervaah Films on YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/919112162535" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Neervaah Films"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="footer-text">&copy; 2024 Neervaah Films. All Rights Reserved.</p>
+        <p class="footer-text">Serving Professional Wedding Photography & Cinematography Services in Mumbai, Pune and Destinations Across India</p>
+    </footer>
+
+    <a href="https://wa.me/919112162535?text=Hi%20Neervaah%20Films!%20I%20would%20like%20to%20inquire%20about%20your%20photography%20services." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
