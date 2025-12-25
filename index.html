@@ -123,6 +123,7 @@
         }
 
         #home {
+            min-height: 100vh;
             height: 100vh;
             display: flex;
             align-items: center;
@@ -131,6 +132,8 @@
             background: linear-gradient(rgba(0, 31, 63, 0.7), rgba(0, 31, 63, 0.7)), 
                         url('https://i.postimg.cc/0y74sZy6/Gemini-Generated-Image-j20j8ij20j8ij20j.png?w=1920') center/cover no-repeat;
             position: relative;
+            margin: 0;
+            padding: 0;
         }
 
         .hero-content {
@@ -424,6 +427,18 @@
         }
 
         @media (max-width: 768px) {
+            header {
+                padding: 0.75rem 0;
+            }
+
+            nav {
+                padding: 0 1rem;
+            }
+
+            .logo img {
+                height: 40px;
+            }
+
             .menu-toggle {
                 display: flex;
             }
@@ -453,28 +468,44 @@
             #home {
                 min-height: 40vh;
                 height: 43vh;
-                height: auto;
-                padding: 80px 1rem 2rem;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             .hero-content {
                 padding: 1rem;
+                margin: 0;
+                width: 100%;
             }
 
             .hero-content h1 {
-                font-size: 2rem;
+                font-size: 1.75rem;
+                line-height: 1.3;
+                margin-bottom: 1rem;
             }
 
             .hero-content p {
-                font-size: 1rem;
+                font-size: 0.95rem;
+                line-height: 1.5;
+                margin-bottom: 1.5rem;
+            }
+
+            .cta-button {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.95rem;
+                white-space: nowrap;
             }
 
             h2 {
-                font-size: 2rem;
+                font-size: 1.75rem;
             }
 
             section {
                 padding: 3rem 1rem;
+                margin: 0;
             }
 
             .gallery-grid {
@@ -483,6 +514,40 @@
 
             .services-grid {
                 gap: 1.5rem;
+            }
+
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-content p {
+                font-size: 0.9rem;
+            }
+
+            .cta-button {
+                padding: 0.75rem 1.25rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            #home {
+                min-height: 100vh;
+                height: 100vh;
+            }
+
+            section {
+                padding: 4rem 2rem;
             }
         }
     </style>
@@ -719,4 +784,3 @@
     </script>
 </body>
 </html>
-
